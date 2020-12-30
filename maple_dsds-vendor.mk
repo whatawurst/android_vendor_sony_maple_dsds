@@ -181,9 +181,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonyericsson.android.semcrilextension.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.android.semcrilextension.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonyericsson.idd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.idd.xml \
-    vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.camera.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.camera.addon.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.getmore.api.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.getmore.api.xml \
-    vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.imageprocessor.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.imageprocessor.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.miscta.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.miscta.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
@@ -202,9 +200,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar \
     vendor/sony/maple_dsds/proprietary/product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qualcomm.qti.uceservice-V2.0-java.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonyericsson.idd_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.idd_impl.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.camera.addon_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.camera.addon_impl.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.getmore.api.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.getmore.api.jar \
-    vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar \
     vendor/sony/maple_dsds/proprietary/framework/com.sonymobile.miscta_impl.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.miscta_impl.jar \
     vendor/sony/maple_dsds/proprietary/product/framework/embmslibrary.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/embmslibrary.jar \
     vendor/sony/maple_dsds/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
@@ -245,7 +241,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib/libdumpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdumpframework.so \
     vendor/sony/maple_dsds/proprietary/lib/libhdcprx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdcprx_module.so \
     vendor/sony/maple_dsds/proprietary/lib/libhdcptx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdcptx_module.so \
-    vendor/sony/maple_dsds/proprietary/lib/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libimageprocessorjni.so \
     vendor/sony/maple_dsds/proprietary/product/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimscamera_jni.so \
     vendor/sony/maple_dsds/proprietary/product/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimsmedia_jni.so \
     vendor/sony/maple_dsds/proprietary/lib/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_imageutil.so \
@@ -366,7 +361,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/libdumpframework.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdumpframework.so \
     vendor/sony/maple_dsds/proprietary/lib64/libhdcprx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdcprx_module.so \
     vendor/sony/maple_dsds/proprietary/lib64/libhdcptx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdcptx_module.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libimageprocessorjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimageprocessorjni.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
     vendor/sony/maple_dsds/proprietary/lib64/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_imageutil.so \
@@ -437,19 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.security.secd@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi@2.0.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/ArtFilterCamera-xxhdpi-release/lib/armeabi/libnativeeffectengine.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ArtFilterCamera-xxhdpi-release/lib/armeabi/libnativeeffectengine.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/ArtFilterCamera-xxhdpi-release/lib/armeabi/libyuvframe.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/ArtFilterCamera-xxhdpi-release/lib/armeabi/libyuvframe.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libmpbase.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libmpbase.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libmpo.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libmpo.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libnativebytebuffer.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libnativebytebuffer.so \
-    vendor/sony/maple_dsds/proprietary/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libspf.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/SoundPhotoCamera-xxhdpi-release/lib/armeabi/libspf.so \
     vendor/sony/maple_dsds/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/sony/maple_dsds/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
@@ -514,16 +495,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/sony/touch/images/splash.png:$(TARGET_COPY_OUT_VENDOR)/sony/touch/images/splash.png
 
 PRODUCT_PACKAGES += \
-    CameraAddonPermission-release \
-    CameraCommonPermission-release \
-    CameraExtensionPermission-release \
-    ImageProcessorPermission-release \
-    ArtFilterCamera-xxhdpi-release \
-    CameraCommon \
-    CameraPanorama-release \
-    SemcCameraUI-xxhdpi-release \
-    SomcMovieCreator-release \
-    SoundPhotoCamera-xxhdpi-release \
     WfdService \
     QtiTelephonyService \
     datastatusnotification \
