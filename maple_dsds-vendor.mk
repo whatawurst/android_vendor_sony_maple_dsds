@@ -92,15 +92,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzattest.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b06 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzattest.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.b07 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzattest.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzattest.mdt \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b00 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b01 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b02 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b03 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b04 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b05 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b06 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.b07 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzfingerprint.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.mdt \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b00 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b01 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b02 \
