@@ -101,60 +101,76 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b06 \
     vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.b07 \
     vendor/sony/maple_dsds/proprietary/vendor/firmware/tzfingerprint.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzfingerprint.mdt \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b00 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b01 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b02 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b03 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b04 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b05 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b06 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.b07 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzhdcp.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzhdcp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzhdcp.mdt \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b00 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b01 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b02 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b03 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b04 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b05 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b06 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.b07:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b07 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzsuntory.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tzsuntory.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.mdt \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b00 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b01 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b02 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b03 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b04 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b05 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b06 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.b07:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.b07 \
     vendor/sony/maple_dsds/proprietary/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tztpm.mdt \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b00 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b01 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b02 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b03 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b04 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b05 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b06 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.b07 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwidevine.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwidevine.mdt \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b00:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b00 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b01:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b01 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b02:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b02 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b03:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b03 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b04:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b04 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b05:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b05 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b06:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b06 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.b07:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.b07 \
-    vendor/sony/maple_dsds/proprietary/etc/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/tzwvcpybuf.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwidevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwidevine.mdt \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b00 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b01 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b02 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b03 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b04 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b05 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b06 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.b07 \
+    vendor/sony/maple_dsds/proprietary/vendor/firmware/tzwvcpybuf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/tzwvcpybuf.mdt \
     vendor/sony/maple_dsds/proprietary/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01AD-483238553734333031414D5220202020-D003.bin \
     vendor/sony/maple_dsds/proprietary/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/ufs/01CE-4B4C554347344A3145442D4230433120-0200.bin \
     vendor/sony/maple_dsds/proprietary/etc/init/mssconfig.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mssconfig.rc \
     vendor/sony/maple_dsds/proprietary/etc/init/taimport.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/taimport.rc \
     vendor/sony/maple_dsds/proprietary/etc/init/updatemiscta.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/updatemiscta.rc \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.fingerprints.extension.xml \
-    vendor/sony/maple_dsds/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/sony/maple_dsds/proprietary/etc/permissions/com.qualcomm.location.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
@@ -162,7 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.getmore.api.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.getmore.api.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/com.sonymobile.miscta.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.miscta.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/embms.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/embms.xml \
-    vendor/sony/maple_dsds/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/lpa.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/lpa.xml \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/qcrilhook.xml \
     vendor/sony/maple_dsds/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
@@ -170,6 +185,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephonyservice.xml \
     vendor/sony/maple_dsds/proprietary/etc/public.libraries-sony.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-sony.txt \
     vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
+    vendor/sony/maple_dsds/proprietary/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imscamera.so \
     vendor/sony/maple_dsds/proprietary/product/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvideocodec.so \
     vendor/sony/maple_dsds/proprietary/product/lib/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib/lib-imsvt.so \
@@ -190,14 +207,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib/libcacao_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcacao_service.so \
     vendor/sony/maple_dsds/proprietary/lib/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcdsprpc_system.so \
     vendor/sony/maple_dsds/proprietary/product/lib/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdiag_system.so \
-    vendor/sony/maple_dsds/proprietary/lib/libhdcprx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdcprx_module.so \
-    vendor/sony/maple_dsds/proprietary/lib/libhdcptx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdcptx_module.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/libhdcprx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcprx_module.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/libhdcptx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcptx_module.so \
     vendor/sony/maple_dsds/proprietary/product/lib/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimscamera_jni.so \
     vendor/sony/maple_dsds/proprietary/product/lib/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libimsmedia_jni.so \
     vendor/sony/maple_dsds/proprietary/lib/libjni_imageutil.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_imageutil.so \
     vendor/sony/maple_dsds/proprietary/lib/libjni_snapcammosaic.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_snapcammosaic.so \
     vendor/sony/maple_dsds/proprietary/lib/libjni_snapcamtinyplanet.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_snapcamtinyplanet.so \
-    vendor/sony/maple_dsds/proprietary/lib/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liblocationservice_jni.so \
     vendor/sony/maple_dsds/proprietary/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmdsprpc_system.so \
     vendor/sony/maple_dsds/proprietary/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqmi_cci_system.so \
     vendor/sony/maple_dsds/proprietary/product/lib/librcc.so:$(TARGET_COPY_OUT_PRODUCT)/lib/librcc.so \
@@ -205,28 +221,41 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib/libseccam.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseccam.so \
     vendor/sony/maple_dsds/proprietary/lib/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecureui_svcsock_system.so \
     vendor/sony/maple_dsds/proprietary/lib/libseemore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseemore.so \
-    vendor/sony/maple_dsds/proprietary/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright_hdcp.so \
-    vendor/sony/maple_dsds/proprietary/lib/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libxt_native.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_hdcp.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.vpp@1.1.so \
-    vendor/sony/maple_dsds/proprietary/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.voiceprint@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.semc.hardware.light@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.semc.hardware.light@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.semc.hardware.light@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.semc.hardware.light@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.semc.system.idd@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.semc.system.idd@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.cacao@3.1.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.device@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.device@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.camera.provider@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.camera.provider@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/vendor.somc.hardware.camera.provider@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.somc.hardware.camera.provider@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.miscta@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.somc.hardware.radio@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.fingerprints.extension@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.fingerprints.extension@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.ant@1.0.so \
+    vendor/sony/maple_dsds/proprietary/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imscamera.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvideocodec.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvt.so \
@@ -246,11 +275,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/libcdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcdsprpc_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libdevice_security_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdevice_security_client.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libhdcprx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdcprx_module.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libhdcptx_module.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdcptx_module.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/libhdcprx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcprx_module.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/libhdcptx_module.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcptx_module.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
-    vendor/sony/maple_dsds/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
     vendor/sony/maple_dsds/proprietary/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmdsprpc_system.so \
     vendor/sony/maple_dsds/proprietary/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqmi_cci_system.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/librcc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/librcc.so \
@@ -262,43 +290,68 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/lib64/libsensor1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor1.so \
     vendor/sony/maple_dsds/proprietary/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_reg.so \
     vendor/sony/maple_dsds/proprietary/lib64/libsensor_test.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsensor_test.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libstagefright_hdcp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright_hdcp.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/libstagefright_hdcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_hdcp.so \
     vendor/sony/maple_dsds/proprietary/lib64/libsys-utils-system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsys-utils-system.so \
-    vendor/sony/maple_dsds/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.color@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.color@1.1.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.1.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.color@1.2.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.display.postproc@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.esepowermanager@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.fm@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.am@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
+    vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.lpa@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
+    vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.callinfo@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/sony/maple_dsds/proprietary/product/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.semc.hardware.light@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.semc.hardware.light@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.semc.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.semc.hardware.thermal@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.semc.hardware.light@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.light@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.semc.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.hardware.thermal@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.semc.system.idd@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.semc.system.idd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.semc.system.idd@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.miscta@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.miscta@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.radio@1.0.so \
     vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.security.secd@1.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so \
-    vendor/sony/maple_dsds/proprietary/lib64/vendor.somc.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.somc.hardware.wifi@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.security.secd@1.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/vendor.somc.hardware.wifi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.somc.hardware.wifi@2.0.so \
     vendor/sony/maple_dsds/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/sony/maple_dsds/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
     vendor/sony/maple_dsds/proprietary/product/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.qti.dpmframework.xml \
@@ -336,11 +389,9 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     dpmserviceapp \
     com.fingerprints.extension \
-    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.sonymobile.getmore.api \
     com.sonymobile.miscta_impl \
-    izat.xt.srv \
     semcrilextension \
     tcmclient \
     QtiTelephonyServicelibrary \
@@ -387,7 +438,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/sony/maple_dsds/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
+    vendor/sony/maple_dsds/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fpc_fingerprint@2.1_HIDL-service \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/illumination_service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/illumination_service \
     vendor/sony/maple_dsds/proprietary/vendor/bin/hw/kobjeventd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/kobjeventd \
@@ -707,7 +760,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
+    vendor/sony/maple_dsds/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/fpc_fingerprint@2.1_HIDL-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpc_fingerprint@2.1_HIDL-service.rc \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/init.illumination_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.illumination_service.rc \
     vendor/sony/maple_dsds/proprietary/vendor/etc/init/init.keyprovd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.keyprovd.rc \
@@ -861,11 +916,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/audio.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/camera.maple_dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.maple_dsds.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/sound_trigger.primary.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib/hw/vulkan.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8998.so \
@@ -1102,10 +1156,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/activity_recognition.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
+    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.msm8998.so \
-    vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.msm8998.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/lights.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.default.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/thermal.somc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.somc.so \
     vendor/sony/maple_dsds/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
