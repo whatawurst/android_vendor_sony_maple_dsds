@@ -92,12 +92,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.qti.location.sdk",
-	owner: "sony",
-	jars: ["proprietary/framework/com.qti.location.sdk.jar"],
-}
-
-dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "sony",
 	jars: ["proprietary/framework/com.qti.snapdragon.sdk.display.jar"],
@@ -113,12 +107,6 @@ dex_import {
 	name: "com.sonymobile.miscta_impl",
 	owner: "sony",
 	jars: ["proprietary/framework/com.sonymobile.miscta_impl.jar"],
-}
-
-dex_import {
-	name: "izat.xt.srv",
-	owner: "sony",
-	jars: ["proprietary/framework/izat.xt.srv.jar"],
 }
 
 dex_import {
